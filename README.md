@@ -94,7 +94,7 @@ qr-craft/
 - **样式**: Tailwind CSS 4
 - **UI**: Base UI
 - **语言**: TypeScript 5
-- **二维码**: qrcode + qrcode.react
+- **二维码**: qrcode
 
 ---
 
