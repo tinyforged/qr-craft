@@ -11,7 +11,8 @@
 <p align="center">
   <a href="https://github.com/tinyforged/qr-craft/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/tinyforged/qr-craft?style=social&label=Star" />
-    <a href="https://github.com/tinyforged/qr-craft/issues">
+  </a>
+  <a href="https://github.com/tinyforged/qr-craft/issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tinyforged/qr-craft?style=social&label=Issue" />
   </a>
   <a href="https://github.com/tinyforged/qr-craft/blob/main/LICENSE">
