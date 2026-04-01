@@ -107,6 +107,5 @@ qr-craft/
 ## 🤝 致谢
 
 - [qrcode](https://github.com/soldair/node-qrcode) - 二维码生成核心
-- [qrcode.react](https://github.com/zpao/qrcode.react) - React 二维码组件
 - [Base UI](https://base-ui.com/) - 无样式 UI 组件库
 - [Tailwind CSS](https://tailwindcss.com/) - CSS 框架
