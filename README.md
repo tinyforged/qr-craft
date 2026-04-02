@@ -1,9 +1,5 @@
 <div align="center">
 
-<a href="https://github.com/tinyforged/qr-craft" target="_blank">
-  <img alt="QR-Craft Logo" width="200" height="200">
-</a>
-
 <h1 align="center">QR-Craft</h1>
 
 <p align="center">🎨 高度可定制的二维码生成器</p>
@@ -19,6 +15,8 @@
     <img alt="GitHub License" src="https://img.shields.io/github/license/tinyforged/qr-craft?style=social&label=MIT" />
   </a>
 </p>
+
+</div>
 
 ---
 
@@ -77,12 +75,12 @@ qr-craft/
 │   ├── app/              # Next.js 页面
 │   ├── components/       # UI 组件
 │   ├── core/             # 核心模块 (QR生成、Canvas渲染)
-│   ├── design-system/   # 设计系统 (图案、图眼样式)
-│   ├── templates/       # 模板预设
+│   ├── design-system/    # 设计系统 (图案、图眼样式)
+│   ├── templates/        # 模板预设
 │   ├── types/            # TypeScript 类型定义
 │   └── utils/            # 工具函数
-├── public/              # 静态资源
-│   └── images/          # 图案/图眼预览图
+├── public/               # 静态资源
+│   └── images/           # 图案/图眼预览图
 └── package.json
 ```
 
