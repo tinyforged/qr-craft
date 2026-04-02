@@ -12,14 +12,14 @@ export class QRGenerator {
    */
   static async generateMatrix(
     data: string,
-    errorCorrectionLevel: ErrorCorrectionLevel = 'H'
+    errorCorrectionLevel: ErrorCorrectionLevel = 'H',
+    version?: number
   ): Promise<QRMatrix> {
     try {
-      // 使用qrcode库生成QR码数据
       const qrData = QRCode.create(data, {
         errorCorrectionLevel,
         maskPattern: undefined,
-        version: undefined,
+        version: version || undefined,
       })
 
       const size = qrData.modules.size
