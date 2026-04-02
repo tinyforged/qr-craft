@@ -26,9 +26,6 @@ dependencies:
   qrcode:
     specifier: ^1.5.4
     version: 1.5.4
-  qrcode.react:
-    specifier: ^4.2.0
-    version: 4.2.0(react@19.2.4)
   react:
     specifier: ^19.2.4
     version: 19.2.4
@@ -38,6 +35,9 @@ dependencies:
   react-dom:
     specifier: ^19.2.4
     version: 19.2.4(react@19.2.4)
+  sonner:
+    specifier: ^2.0.7
+    version: 2.0.7(react-dom@19.2.4)(react@19.2.4)
   tailwind-merge:
     specifier: ^3.5.0
     version: 3.5.0
@@ -58,9 +58,6 @@ devDependencies:
   '@types/qrcode':
     specifier: ^1.5.6
     version: 1.5.6
-  '@types/qrcode.react':
-    specifier: ^1.0.5
-    version: 1.0.5
   '@types/react':
     specifier: ^19.2.14
     version: 19.2.14
@@ -1955,12 +1952,6 @@ packages:
     resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
     dependencies:
       undici-types: 7.18.2
-    dev: true
-
-  /@types/qrcode.react@1.0.5:
-    resolution: {integrity: sha512-BghPtnlwvrvq8QkGa1H25YnN+5OIgCKFuQruncGWLGJYOzeSKiix/4+B9BtfKF2wf5ja8yfyWYA3OXju995G8w==}
-    dependencies:
-      '@types/react': 19.2.14
     dev: true
 
   /@types/qrcode@1.5.6:
@@ -5661,14 +5652,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /qrcode.react@4.2.0(react@19.2.4):
-    resolution: {integrity: sha512-QpgqWi8rD9DsS9EP3z7BT+5lY5SFhsqGjpgW5DY/i3mK4M9DTBNz3ErMi8BWYEfI3L0d8GIbGmcdFAS1uIRGjA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    dependencies:
-      react: 19.2.4
-    dev: false
-
   /qrcode@1.5.4:
     resolution: {integrity: sha512-1ca71Zgiu6ORjHqFBDpnSMTR2ReToX4l1Au1VFLyVeBTFavzQnv5JxMFr3ukHVKpSrSA2MCk0lNJSykjUfz7Zg==}
     engines: {node: '>=10.13.0'}
@@ -6042,6 +6025,16 @@ packages:
   /sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: true
+
+  /sonner@2.0.7(react-dom@19.2.4)(react@19.2.4):
+    resolution: {integrity: sha512-W6ZN4p58k8aDKA4XPcx2hpIQXBRAgyiWVkYhT7CvK6D3iAu7xjvVyhQHg2/iaKJZ1XVJ4r7XuwGL+WGEK37i9w==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+      react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+    dependencies:
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
+    dev: false
 
   /source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
